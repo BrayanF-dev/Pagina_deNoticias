@@ -1,0 +1,29 @@
+header, footer {
+  width: 100%;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+nav.principal {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px;
+  gap: 50px;
+}
+nav.principal a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav.principal a:hover {
+  text-decoration: underline;
+}
+footer a {
+  color: gold;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}

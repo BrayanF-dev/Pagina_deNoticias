@@ -1,0 +1,19 @@
+/* table.css */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+th, td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #ddd;
+}
+tbody tr:nth-child(1) { background-color: #e0f7fa; }
+tbody tr:nth-child(2) { background-color: #f1f8e9; }
+tbody tr:nth-child(3) { background-color: #fff3e0; }
+tbody tr:hover { background-color: #e0e0e0; }
